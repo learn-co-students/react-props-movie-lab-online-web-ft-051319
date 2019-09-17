@@ -19,9 +19,9 @@ describe('<MovieCard />', () => {
     expect(MovieCard.defaultProps.IMDBRating).to.equal(null)
   })
 
-  // it("assigns a default prop of ['No Genre(s) Found'] for the genres prop", () => {
-  //   expect(JSON.stringify(MovieCard.defaultProps.genres)).to.equal(JSON.stringify(['No Genre(s) Found']))
-  // })
+  it("assigns a default prop of ['No Genre(s) Found'] for the genres prop", () => {
+    expect(JSON.stringify(MovieCard.defaultProps.genres)).to.equal(JSON.stringify(['No Genre(s) Found']))
+  })
 
   it("assigns a default prop of 'default' for the poster prop", () => {
     expect(MovieCard.defaultProps.poster.toLowerCase()).to.equal('default')
