@@ -1,0 +1,4 @@
+//    {
+    //  console.log(this.props.title)
+    /* which component should receive which props? */
+  //  }
